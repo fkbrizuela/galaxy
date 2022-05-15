@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/estilos.css" type="text/css" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body  class="parallax__dos">
+    <header class="">
+        <div class="header">
+            <a href="../index.html"><img class="header__logo" src="../recursos/logo-galaxia.png" alt="logo"></a>
+            <h1>Glaxy.inc</h1>
+            <nav>
+                <ul class="header__navegacion">
+                    <li class="navegacion__item"><a href="../index.html">inicio</a></li>
+                    <li class="navegacion__item"><a href="comunidad.html">comunidad</a></li>
+                    <li class="navegacion__item"><a href="galeria.html">galeria</a></li>
+                    <li class="navegacion__item"><a href="informacion.html">informacion</a></li>
+                    <li class="navegacion__item"><a href="contacto.html">contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contacto">
+            <form class="contacto__formulario" action="" method="" enctype="">
+                <h2 class="contacto__titulo">Contactanos</h2>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input class="contacto__dato" type="text" name="nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input class="contacto__dato"  type="text" name="apellido">
+                </div>
+                <div>
+                    <label for="telefonoe">Telefono:</label>
+                    <input class="contacto__dato"  type="number" placeholder="ej:+54 9 381 x xxxxxx" name="telefono">
+                </div>
+                <div>
+                    <label for="mail">Correo Electrónico</label>
+                    <input class="contacto__dato"  type="email" placeholder="ejemplo@coder.com" name="mail">
+                </div>
+                <div>
+                    <label for="msg">consulta :</label>
+                    <textarea class="contacto__dato" name="msg" id="" cols="20" rows="5"></textarea>
+                </div>
+                <div class="contacto__dato__dos">
+                    <label for="nacionalidad">Nacionalidad:</label>
+                    <select name="pais" name="nacionalidad">
+                        <option value="argentina">Argentina</option>
+                        <option value="chile">Chile</option>
+                        <option value="peru">Peru</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="paraguay">Paraguay</option>
+                        <option value="colombia">Colombia</option>
+                    </select>
+                </div> 
+                <div class="contacto__dato__tres">
+                    <label for="genero">sexo:</label>
+                    <span>masculino</span>
+                    <input type="radio" name="genero" value="masculino">
+                    <span>femenino</span>
+                    <input type="radio" name="genero" value="femenino">
+                    <p class="contacto_p">Por donde te gustaria recibir tu respuesta</p>
+                    <label for="checkEmail">Email</label>
+                    <input type="checkbox" name="checkEmail">
+                    <label for="checkWhatsapp">Whatsapp</label>
+                    <input type="checkbox" name="checkWhatsapp">
+                    <label for="checkTelegram">Telegram</label>
+                    <input type="checkbox" name="checkTelegram">
+                </div>
+                <div>
+                    <input class="contacto__btn" type="submit" value="Enviar">
+                    <input class="contacto__btn" type="reset" value="Limpiar Formulario">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__disclaimer">
+            <p>Todos los derechos reservados</p>
+        </div>
+        <div class="footer__redes">
+            <a href="https://www.facebook.com/"><img src="../recursos/facebook-square-logo-24.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img src="../recursos/instagram-logo-24.png" alt="instragram"></a>
+            <a href="https://twitter.com/"><img src="../recursos/twitter-logo-24.png" alt="twitter"></a>
+        </div>
+    </footer>
+</body>
+</html>
