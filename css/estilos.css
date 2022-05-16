@@ -49,10 +49,39 @@
     border: 3px solid #000;
 }
 
+.navegacion__item:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.3);
+    transition: all 1.2s;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
 .navegacion__item a{
     text-decoration: none;
     color: #fff;
     font-size: 15px;
+}
+
+.navegacion__item a:hover{
+    color: #000;
+    font-weight: bold;
+    transition: all 1.2s;
+}
+
+/* ANIMACIONES */
+/*  animation-duration (duracion)
+    animation-name (nombre animacion)
+    animation-iteration-count (la iteracion/la repeticion de la animacion) */
+
+.header__logo:hover {
+    animation: giroAnimacion 1.5s 8 linear;
+}
+
+@keyframes giroAnimacion {
+to {
+    transform: rotate(180deg) translate(0px, 0px);
+}
 }
 
 /* =====================          MAIN            =========================== */
@@ -155,6 +184,10 @@
 .evento__tituloSecundario{
     text-align: center;
     background: rgba(255,255,255,0.4);
+}
+
+.evento__tituloSecundario:hover{
+    transformation: scale(1);
 }
 
 /* --------- Multimedia -------------- */
