@@ -115,10 +115,10 @@ to {
 
 /* --------- Evento -------------- */
 
+/* gradiente para desafio */
 
 .evento{
     padding: 16px;
-    background: #f2f2f2
 }
 
 .evento__grid {
@@ -130,6 +130,8 @@ to {
                         "foto_dos descripcion_dos"
                         "foto_tres descripcion_tres";
     gap: 1rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(to right bottom, #051937, #171228, #190a1a, #12040d, #000000);
 }
 
 .evento__titulo{
@@ -146,10 +148,15 @@ to {
     padding-top: 70%;
 }
 
+.evento__uno:hover{
+    transform: scale(1.5), translateX(150px);
+}
+
 .evento__dos{
     grid-area: descripcion_uno;
     border-top: 1px solid #000;
     padding-top: 20px;
+    color: #f2f2f2;
 }
 
 .evento__tres{
@@ -164,6 +171,7 @@ to {
     grid-area: descripcion_dos;
     border-top: 1px solid #000;
     padding-top: 20px;
+    color: #f2f2f2;
 }
 
 .evento__cinco{
@@ -179,6 +187,7 @@ to {
     grid-area: descripcion_tres;
     border-top: 1px solid #000;
     padding-top: 20px;
+    color: #f2f2f2;
 }
 
 .evento__tituloSecundario{
@@ -186,9 +195,6 @@ to {
     background: rgba(255,255,255,0.4);
 }
 
-.evento__tituloSecundario:hover{
-    transformation: scale(1);
-}
 
 /* --------- Multimedia -------------- */
 
@@ -504,6 +510,7 @@ span{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 3rem;
     padding: 30px;
     width: 100%;
     height: 100vh;
